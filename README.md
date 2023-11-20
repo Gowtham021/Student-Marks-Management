@@ -15,9 +15,9 @@ This Java application manages student marks and calculates their overall percent
    ```bash
    git clone https://github.com/your-username/StudentMarksManagement.git.
    
-1)Set up your MySQL database and update the URL, user, and password fields in the StudentMarks class.
+1.Set up your MySQL database and update the URL, user, and password fields in the StudentMarks class.
 
-2)Build and run the application:
+2.Build and run the application:
 
 ```bash
 cd StudentMarksManagement
@@ -26,14 +26,14 @@ java StudentMarks
 
 
 ## Usage
-1)Edit the main method in StudentMarks to register students and their marks.
+1.Edit the main method in StudentMarks to register students and their marks.
 
-2)Run the application to see the overall percentage for each student.
+2.Run the application to see the overall percentage for each student.
 
 ## Database Structure
 The application uses a MySQL database with the following table structure:
    
-   ```bash
+```bash
 CREATE TABLE IF NOT EXISTS studentsmarks (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
