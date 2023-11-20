@@ -19,6 +19,7 @@ This Java application manages student marks and calculates their overall percent
 
 2)Build and run the application:
 
+```bash
 cd StudentMarksManagement
 javac StudentMarks.java
 java StudentMarks
