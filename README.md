@@ -22,7 +22,7 @@ This Java application manages student marks and calculates their overall percent
 ```bash
 cd StudentMarksManagement
 javac StudentMarks.java
-java StudentMarks
+java StudentMarks.
 
 
 ## Usage
