@@ -25,12 +25,15 @@ java StudentMarks
 
 
 ## Usage
-Edit the main method in StudentMarks to register students and their marks.
+1)Edit the main method in StudentMarks to register students and their marks.
 
-Run the application to see the overall percentage for each student.
+2)Run the application to see the overall percentage for each student.
 
 ## Database Structure
 The application uses a MySQL database with the following table structure:
+   
+   ```bash
+
 CREATE TABLE IF NOT EXISTS studentsmarks (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
