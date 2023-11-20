@@ -33,7 +33,6 @@ java StudentMarks
 The application uses a MySQL database with the following table structure:
    
    ```bash
-
 CREATE TABLE IF NOT EXISTS studentsmarks (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
